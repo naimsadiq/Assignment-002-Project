@@ -164,20 +164,19 @@ header{
 /* Flower & Plants lover section style */
 .flower-lover-conteiner{
     max-width: 1140px;
-    margin: 0 auto 50px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 70px;
     position: relative;
 }
 
-
 .flower-lover-left-side img{
     width: 100%;
 }
 
 .flower-lover-right-side{
-    width: 540px;
+    max-width: 540px;
     padding: 38px 0;
 }
 
@@ -198,12 +197,206 @@ header{
     font-family: "Inter", sans-serif;
 }
 
-.badge{
+.trust-badge {
     position: absolute;
     width: 286px;
     top: -140px;
-    right: 45%;
+    left: 350px;
+}
+/* Latest  Deals section style */
 
+.latest-deals-conteiner{
+    max-width: 1140px;
+    margin: 130px auto;
+    text-align: center;
+}
+
+.deals-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #E95A08;
+    font-family: "Noto serif", sans-serif;
+    margin-bottom: 16px;
+}
+
+.deals-subtitle{
+    font-size: 1.375rem;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    width: 888px;
+    margin: 0 auto;
+}
+
+.shopping-img-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 120px 0;
+    height: 423px;
+}
+
+.shop-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    height: 423px;
+}
+.shop-right-side{
+    flex: 1;
+    height: 100%;
+}
+
+.bloom-plants{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('/assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 14px;
+}
+
+.ana-plants{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('/assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 14px;
+}
+
+.zabo-plants{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('/assets/deal-zabo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-name{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "Noto serif", sans-serif;
+    color: #FFFFFF;
+    padding: 50px 50px 20px 50px;
+}
+
+.shop-btn{
+    padding: 25px 0 80px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+.zabo-plants h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Noto serif", sans-serif;
+    color: #FFFFFF;
+    padding: 50px 50px 20px 50px;
+}
+
+.zabo-plants a{
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+
+/* Join the colorful Bunch */
+
+.join-bunch{
+    background-image: url('/assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 533px;
+}
+
+.bunch-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    font-family: "Noto", sans-serif;
+    color: #FFFFFF;
+    padding-top: 190px;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 830px;
+    margin: 23px auto 190px;
+}
+
+form input{
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 13px 30px;
+    border: none;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.input-btn{
+    background-color: #E95A08;
+    width: 186px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    padding: 50px 160px;
+}
+
+.logo-pragraph{
+    width: 359px;
+}
+
+.footer-logo{
+    width: 135px;
+}
+
+.footer-pragraph{
+    font-size: 1.375rem;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+
+.footer-navbar ul, .footer-features ul{
+    list-style-type: none;
+}
+
+.footer-navbar ul li, .footer-features ul li{
+    margin-bottom: 32px;
+}
+
+.footer-navbar ul li a, .footer-features ul li a{
+    text-decoration: none;
+    color: #6B7280;
+}
+
+/* .social-icon-list{
+    display: flex;
+    gap: 24px;/
+} */
+
+.social-icon{
+    width: 36px;
+    margin-left: 32px;
 }
 
 
@@ -266,6 +459,34 @@ header{
         grid-template-columns: repeat(2, 1fr);
         padding: 0 10px;
     }
+
+    /* Flower & Plants Lover style */
+
+    .flower-lover-conteiner{
+        flex-direction: column;
+        gap: 0px;
+        padding: 0 10px;
+    }
+
+    .flower-lover-right-side{
+        padding-top: 10px;
+    }
+
+    .flower-lover-title{
+        font-size: 1.5rem;
+    }
+
+    .flower-lover-right-side ul li{
+        font-size: 0.875rem;
+        margin-top: 16px;
+    }
+
+    .badge{
+        display: none;
+    }
+
+
+    /*  */
 
     
 }
