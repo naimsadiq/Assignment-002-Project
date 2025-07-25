@@ -161,6 +161,51 @@ header{
     font-family: "Inter", sans-serif;
 }
 
+/* Flower & Plants lover section style */
+.flower-lover-conteiner{
+    max-width: 1140px;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    position: relative;
+}
+
+
+.flower-lover-left-side img{
+    width: 100%;
+}
+
+.flower-lover-right-side{
+    width: 540px;
+    padding: 38px 0;
+}
+
+.flower-lover-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    font-family: "Noto serif", sans-serif;
+    color: #000000;
+
+}
+.flower-lover-right-side ul{
+    padding-left: 30px;
+}
+.flower-lover-right-side ul li{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    font-family: "Inter", sans-serif;
+}
+
+.badge{
+    position: absolute;
+    width: 286px;
+    top: -140px;
+    right: 45%;
+
+}
+
 
 
 /* Mobile device responsive */
