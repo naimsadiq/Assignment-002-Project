@@ -309,7 +309,7 @@ header{
 /* Join the colorful Bunch */
 
  .join-bunch{
-    background-image: url('/assets/news-letter-bg.png');
+    background-image: url('../assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -369,7 +369,7 @@ footer{
 }
 
 .logo-pragraph{
-    width: 359px;
+    width: 380px;
 }
 
 .footer-logo{
@@ -383,22 +383,21 @@ footer{
     margin-top: 16px;
 }
 
-.footer-navbar ul, .footer-features ul{
+.footer-navbar ul{
     list-style-type: none;
 }
 
-.footer-navbar ul li, .footer-features ul li{
+.footer-navbar ul li {
     margin-bottom: 32px;
 }
 
-.footer-navbar ul li a, .footer-features ul li a{
+.footer-navbar ul li a {
     text-decoration: none;
     color: #6B7280;
 }
 
  .social-icon-list{
     display: flex;
-    gap: 24px;/
 } 
 
  .social-icon{
@@ -551,7 +550,22 @@ footer{
      }
 
 
+     /* footer responsive desgin */
 
+     footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 20px;
+     }
+
+     .logo-pragraph{
+        width: 100%;
+    }
+
+
+     .footer-pragraph{
+        font-size: 16px;
+    }
 
 
 
