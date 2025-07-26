@@ -45,21 +45,21 @@ header{
     font-family: "Inter", sans-serif;
 }
 
-/* .links li a:hover{
-    color: #252432;
-    font-weight: bold;
-} */
 
 .links li:first-child a{
     color: #252432;
     font-weight: bold;
 }
 
-.cart-button{
+.cart-btn{
     border: none;
     background-color: transparent;
     color: #000000;
     font-family: "Inter", sans-serif;
+}
+
+.cart-btn:hover{
+    color: #E95A08;
 }
 
 
@@ -159,6 +159,13 @@ header{
     color: #FFFFFF;
     font-weight: 600;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.cart-button:hover{
+    background-color: #7c3309;
+    color: #E95A08;
 }
 
 /* Flower & Plants lover section style */
@@ -275,6 +282,10 @@ header{
     color: #FFFFFF;
 }
 
+.deal-card a:hover{
+    color: #E95A08;
+}
+
 .large-card p{
     font-size: 40px;
 }
@@ -357,6 +368,11 @@ form input{
     font-weight: 600;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
+}
+
+.input-btn:hover{
+    background-color: #9b4311;
 }
 
 /* footer style */
@@ -394,6 +410,10 @@ footer{
 .footer-navbar ul li a {
     text-decoration: none;
     color: #6B7280;
+}
+
+.footer-navbar ul li a:hover{
+    color: #E95A08;
 }
 
  .social-icon-list{
