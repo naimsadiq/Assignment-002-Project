@@ -284,14 +284,14 @@ header{
 }
 
 .bloom-plants{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/deal-bloom.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
 }
 .ana-plants{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/deal-ana.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-ana.png");
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-position: center;
@@ -299,35 +299,32 @@ header{
     height: 100%;
 }
 .zabo-plants{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/deal-zabo.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-zabo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Join the colorful Bunch */
 
-/* .join-bunch{
+ .join-bunch{
     background-image: url('/assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-align: center;
     height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bunch-conteiner{
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bunch-title{
@@ -335,14 +332,13 @@ header{
     font-weight: bold;
     font-family: "Noto", sans-serif;
     color: #FFFFFF;
-    padding-top: 190px;
     
 }
 form{
     display: flex;
     justify-content: center;
-    width: 830px;
-    margin: 23px auto 190px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 form input{
@@ -350,7 +346,7 @@ form input{
     color: rgba(0, 0, 0, 0.5);
     padding: 13px 30px;
     border: none;
-    width: 100%;
+    flex: 1;
     font-family: "Inter", sans-serif;
 }
 
@@ -360,11 +356,12 @@ form input{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #FFFFFF;
+    border: none;
 }
 
 /* footer style */
 
-/* footer{
+footer{
     display: flex;
     justify-content: space-between;
     gap: 110px;
@@ -397,17 +394,17 @@ form input{
 .footer-navbar ul li a, .footer-features ul li a{
     text-decoration: none;
     color: #6B7280;
-} */
+}
 
-/* .social-icon-list{
+ .social-icon-list{
     display: flex;
     gap: 24px;/
-} */
+} 
 
-/* .social-icon{
+ .social-icon{
     width: 36px;
     margin-left: 32px;
-} */ 
+} 
 
 
 
@@ -495,7 +492,7 @@ form input{
    /* Latest Deals section style */
 
     .deals-conteiner{
-        margin: 50px auto 40px;
+        margin: 50px auto 0px;
         padding: 0 10px;
     }
     .deals-title{
@@ -531,6 +528,27 @@ form input{
     .large-card a{
         font-size: 16px;
     }
+
+
+    /* Join the colorful Bunch section style */
+
+     .join-bunch{
+        padding: 0 25px;
+        max-height: 275px;
+     }
+
+
+     .bunch-title{
+        font-size: 20px;
+     }
+
+     form input{
+        width: 100%;
+     }
+
+     .input-btn{
+        width: 103px;
+     }
 
 
 
